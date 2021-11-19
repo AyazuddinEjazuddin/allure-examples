@@ -71,12 +71,12 @@ public class WebSteps {
 
     @When("I open issue with id {int}")
     public void openIssuePage(final int id) {
-        //maybeThrowElementNotFoundException();
+        maybeThrowElementNotFoundException();
     }
 
     @And("I add label with title {string} to issue")
     public void addLabelToIssue(final String text) {
-        //maybeThrowElementNotFoundException();
+        maybeThrowElementNotFoundException();
     }
 
     @And("I filter issue by label title {string}")
