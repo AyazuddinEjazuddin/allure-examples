@@ -41,7 +41,7 @@ public class WebSteps {
 
     @Then("I should see issue with label title {string}")
     public void labelsShouldContainsNoteWithText(final String title) {
-        maybeThrowAssertionException(title);
+       // maybeThrowAssertionException(title);
     }
 
     @Then("I should not see note with content {string}")
