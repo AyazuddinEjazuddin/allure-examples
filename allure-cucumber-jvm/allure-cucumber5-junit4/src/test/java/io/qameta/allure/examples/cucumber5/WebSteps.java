@@ -26,7 +26,7 @@ public class WebSteps {
 
     @And("I create label with title {string}")
     public void createLabelWithTitle(final String title) {
-        //maybeThrowElementNotFoundException();
+        maybeThrowElementNotFoundException();
     }
 
     @And("I create milestone with title {string}")
