@@ -26,7 +26,7 @@ public class WebSteps {
 
     @And("I create label with title {string}")
     public void createLabelWithTitle(final String title) {
-        maybeThrowElementNotFoundException();
+        //maybeThrowElementNotFoundException();
     }
 
     @And("I create milestone with title {string}")
@@ -71,7 +71,7 @@ public class WebSteps {
 
     @When("I open issue with id {int}")
     public void openIssuePage(final int id) {
-        maybeThrowElementNotFoundException();
+        //maybeThrowElementNotFoundException();
     }
 
     @And("I add label with title {string} to issue")
