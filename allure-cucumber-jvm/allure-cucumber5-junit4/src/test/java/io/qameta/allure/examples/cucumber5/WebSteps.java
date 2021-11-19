@@ -15,7 +15,7 @@ public class WebSteps {
 
     @When("^I open labels page$")
     public void openLabelsPage() {
-        maybeThrowElementNotFoundException();
+        //maybeThrowElementNotFoundException();
     }
 
 
@@ -36,7 +36,7 @@ public class WebSteps {
 
     @And("I delete label with title {string}")
     public void deleteLabelWithTitle(final String title) {
-        maybeThrowAssertionException(title);
+        //maybeThrowAssertionException(title);
     }
 
     @Then("I should see issue with label title {string}")
@@ -46,7 +46,7 @@ public class WebSteps {
 
     @Then("I should not see note with content {string}")
     public void notesShouldNotContainsNoteWithText(final String text) {
-        maybeThrowAssertionException(text);
+        //maybeThrowAssertionException(text);
 
     }
 
@@ -76,12 +76,12 @@ public class WebSteps {
 
     @And("I add label with title {string} to issue")
     public void addLabelToIssue(final String text) {
-        maybeThrowElementNotFoundException();
+        //maybeThrowElementNotFoundException();
     }
 
     @And("I filter issue by label title {string}")
     public void filterIssueByLabel(final String title) {
-        maybeThrowElementNotFoundException();
+        //maybeThrowElementNotFoundException();
     }
 
     private void maybeThrowElementNotFoundException() {
